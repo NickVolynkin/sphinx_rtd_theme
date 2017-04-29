@@ -216,28 +216,28 @@ Set up your environment
 
 #. Install sphinx_ into a virtual environment.
 
-   .. code:: bash
+    .. code:: bash
 
-      pip install sphinx
+        pip install sphinx
 
 #. Install sass.
 
-   .. code:: bash
+    .. code:: bash
 
-      gem install sass
+        gem install sass
 
 #. Install node, bower, grunt, and theme dependencies.
 
-   .. code:: bash
+    .. code:: bash
 
-      # Install node
-      brew install node
+        # Install node
+        brew install node
 
-      # Install bower and grunt
-      npm install -g bower grunt-cli
+        # Install bower and grunt
+        npm install -g bower grunt-cli
 
-      # Now that everything is installed, let's install the theme dependencies.
-      npm install
+        # Now that everything is installed, let's install the theme dependencies.
+        npm install
 
 Now that our environment is set up, make sure you're in your virtual environment, go to
 this repository in your terminal and run grunt:
